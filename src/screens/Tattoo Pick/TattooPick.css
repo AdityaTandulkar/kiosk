@@ -1,0 +1,17 @@
+.tattoo-pick-heading-container h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ECAA20;
+    line-height: 8rem;
+    text-align: center;
+}
+
+.tattoo-pick-heading-container h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    line-height: 8rem;
+    text-align: center;
+}

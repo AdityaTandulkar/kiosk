@@ -1,0 +1,75 @@
+.footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #5D5D5D;
+}
+
+.footer-img-container{
+    width: 15%;
+}
+
+.footer-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.selection-container{
+    width: 57%;
+    height: 100%;
+    padding: 1% 2%;
+    display: flex;
+    align-items: center;
+}
+
+.selected-item-img-container{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-item-img{
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid #ECAA20;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.service-type-container{
+    width: 70%;
+    padding: 0 2%;
+}
+
+.service{
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-family: 'Termina Test', sans-serif;
+    color: white;
+    line-height: 1.5;
+}
+
+.type{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: 'Termina Test', sans-serif;
+    color: #BABABA;
+    line-height: 1.5;
+}
+
+.footer .continue-button-container{
+    width: 28%;
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+
+.continue-button-container .back-button{
+    width: 80%;
+    font-size: 2.8rem;
+    border-radius: 1.7rem;
+}

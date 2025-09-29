@@ -1,0 +1,61 @@
+.service-selection,
+.size-selection,
+.booking-details {
+    width: 100%;
+    display: flex;
+}
+
+.tatto-types-container,
+.tatto-size-container,
+.booking-details-container {
+    width: 85%;
+}
+
+.item-selection,
+.size-selection-button {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+}
+
+.service-selection-heading-container,
+.size-selection-heading-container,
+.booking-details-heading-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.service-selection-heading-container div h1,
+.size-selection-heading-container div h1,
+.booking-details-heading-container div h1{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.service-selection-heading-container div h2,
+.size-selection-heading-container div h2{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2;
+}
+
+.size-selection-heading-container h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+    font-family: 'Termina Test', sans-serif;
+    line-height: 2;
+}
